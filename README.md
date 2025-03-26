@@ -82,5 +82,11 @@ Next, we tried the RandomForestClassifier with minor improvement.
 ![image](https://github.com/user-attachments/assets/feccd75d-8b8f-4acf-84cc-5ada0bedd187)
 
 
+Finally, checking model accuracy by changing the number of features, it seems that around 10 features produce optimal results.
+
+![image](https://github.com/user-attachments/assets/c5691740-968b-4046-b0c7-91a8533c4980)
+
+
+
 
 
