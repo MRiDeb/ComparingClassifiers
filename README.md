@@ -95,6 +95,10 @@ Finally, checking model accuracy by changing the number of features, it seems th
 ![image](https://github.com/user-attachments/assets/c5691740-968b-4046-b0c7-91a8533c4980)
 
 
+Running Grid search on KNN, Decision Tree and SVM reveals following paraments:
 
+Best KNN Parameters: {'metric': 'manhattan', 'n_neighbors': 11, 'weights': 'uniform'}
+Best Decision Tree Parameters: {'max_depth': 5, 'min_samples_leaf': 1, 'min_samples_split': 2}
+Best SVM Parameters: {'C': 10, 'gamma': 'scale', 'kernel': 'linear'}
 
-
+I am still running Grid Search on Logistic Regression taking some time, will update once it completed execution.
