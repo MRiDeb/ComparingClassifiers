@@ -13,7 +13,31 @@ The data was collected from 17 campaigns and 79,354 contacts and occurred betwee
 Exploratory Data Analysis:
 ![image](https://github.com/user-attachments/assets/77886af6-8eea-4597-b9f0-ec36220e733e)
 
+![image](https://github.com/user-attachments/assets/ac5aa9a1-c146-461a-aa63-aba97015f9c4)
+Based on the above bar chart:
 
+Admin, Blue_collar and technician contributed to most of job data
+
+Marital status - Unknown seems to be not present at all
+
+University degree holders seem to contribute more to the Campaign
+
+Default - has many unknown values
+
+housing- yes and no values seems to equally distributed
+
+loans - most people who denied have no loans
+
+contact -  most people contacted through cell phone
+
+month - May month had the most campaigning happened
+
+Days of the week - seems to be equally distributed
+
+poutcome- those who were not called previously seems to be contributing more and also #pdays is not contributing much to the prediction and hence can be dropped .
+
+## Business Objective 
+The business objective of the bank marketing campaign is to increase term deposit subscriptions by targeting high-potential clients. By leveraging customer data and previous campaign outcomes, the bank aims to optimize marketing efforts and resource allocation. The goal is to maximize conversions while minimizing costs and improving customer engagement.
 
 ## Baseline Model
 Before we build our first model, we want to establish a baseline using DummyClassifier. What is the baseline performance that our classifier should aim to beat?
