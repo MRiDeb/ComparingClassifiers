@@ -11,7 +11,9 @@ The data was collected from 17 campaigns and 79,354 contacts and occurred betwee
 
 
 Exploratory Data Analysis:
-![image](https://github.com/user-attachments/assets/51fa40dc-06a0-4a48-ac70-f0411e0b80ff)
+![image](https://github.com/user-attachments/assets/77886af6-8eea-4597-b9f0-ec36220e733e)
+
+
 
 ## Baseline Model
 Before we build our first model, we want to establish a baseline using DummyClassifier. What is the baseline performance that our classifier should aim to beat?
@@ -22,8 +24,10 @@ Baseline accuracy score:
 Since this is an imbalanced class, we will take the F1 score as the baseline, which is around 11%. Our models should perform better than this.
 
 Next, we will look into simple models using KNN, Logistic Regression, Decision Tree, and SVC, and measure their accuracies.
+![image](https://github.com/user-attachments/assets/3c771791-eb9b-429f-90ba-dae1a7750f9a)
 
-![image](https://github.com/user-attachments/assets/534ed629-be6c-4233-a5f5-d51087624aca)
+
+
 
 Running various models has improved the F1 score, but it is still around 51%, which is much better than the baseline. Now, let's work on improving the model and observe its effect on the F1 score.
 
@@ -44,12 +48,15 @@ nr.employed^2
 
 After this, I ran all four models again, and the following results were obtained:
 
-![image](https://github.com/user-attachments/assets/717a8511-587b-4507-8d39-a3e97241d6c6)
+![image](https://github.com/user-attachments/assets/708218e2-3bca-4e5b-bb90-bd9bf89e99fc)
+
 
 We see a slight improvement in F1 scores, but nothing major. We also tried to play with parameters, but nothing significant changed.
 
 Next, we tried the RandomForestClassifier with minor improvement.
-![image](https://github.com/user-attachments/assets/b563cade-25b0-4200-86e1-18c22f95c6e4)
+
+![image](https://github.com/user-attachments/assets/feccd75d-8b8f-4acf-84cc-5ada0bedd187)
+
 
 
 
