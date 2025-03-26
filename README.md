@@ -1,7 +1,7 @@
 
 # Comparing Classifiers
 Practical Application III: Comparing Classifiers
-Please find the code here: [GitHub Link](https://github.com/MRiDeb/ComparingClassifiers/blob/main/prompt_III.ipynb)
+Please find the code here: [[GitHub Link](https://github.com/MRiDeb/ComparingClassifiers/blob/main/prompt_III.ipynb)]
 
 ## Will a consumer subscribe to a Fixed Deposit (FD)?
 This dataset comes from the UCI Machine Learning repository. The data is from a Portuguese banking institution and is a collection of the results of multiple marketing campaigns. We will make use of the article accompanying the dataset for more information on the data and features.
