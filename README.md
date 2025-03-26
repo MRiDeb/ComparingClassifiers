@@ -103,4 +103,4 @@ Best Decision Tree Parameters: {'max_depth': 5, 'min_samples_leaf': 1, 'min_samp
 
 Best SVM Parameters: {'C': 10, 'gamma': 'scale', 'kernel': 'linear'}
 
-I am still running Grid Search on Logistic Regression taking some time, will update once it completed execution.
+
