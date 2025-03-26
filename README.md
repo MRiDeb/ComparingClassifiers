@@ -60,14 +60,22 @@ Now that we have some basic models, we want to try to improve them. Below, we li
 
 PolynomialFeatures with Degree, which resulted in 1770 columns.
 
-Followed by Sequential Feature Selector to select 5 columns:
+Followed by Sequential Feature Selector to select 5 columns (These looks like the most improt features):
+
 nr.employed, 
+
 job duration, 
+
 pdays, 
+
 contact month duration, 
+
 month pdays, 
+
 euribor3m, 
+
 pdays, 
+
 nr.employed^2
 
 After this, I ran all four models again, and the following results were obtained:
