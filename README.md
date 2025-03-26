@@ -97,10 +97,23 @@ Finally, checking model accuracy by changing the number of features, it seems th
 
 Running Grid search on KNN, Decision Tree and SVM reveals following paraments:
 
-Best KNN Parameters: {'metric': 'manhattan', 'n_neighbors': 11, 'weights': 'uniform'}
+Best KNN Parameters: {'metric': 'manhattan', 'n_neighbors': 11, 'weights': 'uniform'} KNeighborsClassifier(metric='manhattan', n_neighbors=11)
 
-Best Decision Tree Parameters: {'max_depth': 5, 'min_samples_leaf': 1, 'min_samples_split': 2}
+Best Decision Tree Parameters: {'max_depth': 5, 'min_samples_leaf': 1, 'min_samples_split': 2} DecisionTreeClassifier(max_depth=5, random_state=42)
 
-Best SVM Parameters: {'C': 10, 'gamma': 'scale', 'kernel': 'linear'}
+Best SVM Parameters: {'C': 10, 'gamma': 'scale', 'kernel': 'linear'} SVC(C=10, kernel='linear', random_state=42)
+
+Best Log Parameters: {'C': 1000, 'max_iter': 10000, 'penalty': 'l2', 'solver': 'lbfgs'} LogisticRegression(C=1000, max_iter=10000)
+
+KNN F1-Score: 0.8937306193007937
+
+Decision Tree F1-Score: 0.8992294187301896
+
+SVM F1-Score: 0.8765233878022757
+
+Log F1-Score: 0.8886311138924361
+
+Finally, Grid Search has improved the F1 score tremendously, and the above are the best parameters.
+
 
 
